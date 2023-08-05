@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #7D499B; /* Replace with your desired background color */
+}
+
+.content {
+  width: 100%;
+  height: 100vh; /* 100% viewport height */
+  color: #ffffff; /* Text color */
+  display: flex;
+  flex-direction: column;
+}
+
+.language-selector {
+  position:absolute;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  top:15px;
+  text-align:right;
+  right:10px;
+  list-style:none;
+  cursor:pointer;
+  padding:0 2px;
+}
+
+.current-language {
+  text-decoration: line-through;
+  color: white;
+  font-size: 17px;
+}
+
+.other-languages {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.link {
+  color: white;
+  font-size: 15px;
+}
+
+.head {
+  padding: 0 20vw;
+}
+.body {
+  padding: 0 20vw;
+}
+
+.img {
+  text-align: center;
+  padding: 5vw 0;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.line {
+  color: white;
+  width: 77%;
+  border: 0.1px dashed;
+}
+
+.title1 {
+  font-size: 30px; /* Responsive font size based on viewport width */
+  text-align: center;
+}
+
+.title2 {
+  font-size: 25px; /* Responsive font size based on viewport width */
+  color: white;
+}
+
+p {
+  font-size: 15px; /* Responsive font size based on viewport width */
+  max-width: 80%; /* Limiting the width of the text for better readability */
+}
+
