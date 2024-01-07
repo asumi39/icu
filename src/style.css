@@ -28,7 +28,7 @@ body {
 }
 
 .current-language {
-  text-decoration: underover;
+  text-decoration: white wavy underline;
   color: white;
   font-size: 17px;
 }
