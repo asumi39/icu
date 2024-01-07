@@ -50,6 +50,7 @@ body {
 .body {
   max-width: 500px;
   padding: 0 20px;
+  margin: auto;
 }
 
 .img {
