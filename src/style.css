@@ -48,7 +48,8 @@ body {
 }
 
 .body {
-  padding: 0 20vw;
+  max-width: 500px;
+  padding: 0 20px;
 }
 
 .img {
