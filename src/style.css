@@ -28,7 +28,7 @@ body {
 }
 
 .current-language {
-  text-decoration: line-through;
+  text-decoration: underover;
   color: white;
   font-size: 17px;
 }
@@ -81,4 +81,3 @@ p {
   font-size: 15px; /* Responsive font size based on viewport width */
   max-width: 80%; /* Limiting the width of the text for better readability */
 }
-
